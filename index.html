@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <title>Pokédex - MapaDev Week</title>
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto tipo-grama" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#0001</span>
+                        </div>
+                        <span class="tipo grama">Grama</span>
+                        <span class="tipo veneno">Veneno</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/bulbasaur.png" alt="Bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 45</li>
+                                <li>Ataque: 49</li>
+                                <li>Defesa: 49</li>
+                                <li>Velocidade: 45</li>
+                                <li>Total: 188</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Overgrow (Super Crescimento)</li>
+                                <li>Chlorophyll (Clorofila)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#0025</span>
+                        </div>
+
+                        <span class="tipo eletrico">Elétrico</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/pikachu.png" alt="Pikachu">
+                        </div>
+
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 35</li>
+                                <li>Ataque: 55</li>
+                                <li>Defesa: 40</li>
+                                <li>Velocidade: 90</li>
+                                <li>Total: 220</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Static (Estática)</li>
+                                <li>Lightning Rod (Para-Raios)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fogo" id="cartao-ninetales">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Ninetales</h2>
+                            <span>#0038</span>
+                        </div>
+
+                        <span class="tipo fogo">Fogo</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/ninetales.png" alt="Pikachu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 73</li>
+                                <li>Ataque: 76</li>
+                                <li>Defesa: 75</li>
+                                <li>Velocidade: 100</li>
+                                <li>Total: 324</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Flash Fire (Fogo Luminoso)</li>
+                                <li>Drought (Seca/Calor Desértico)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fantasma" id="cartao-gengar">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gengar</h2>
+                            <span>#0094</span>
+                        </div>
+
+                        <span class="tipo fantasma">Fantasma</span>
+                        <span class="tipo veneno">Veneno</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/gengar.png" alt="Gengar">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 60</li>
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 60</li>
+                                <li>Velocidade: 110</li>
+                                <li>Total: 285</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Cursed Body (Corpo Amaldiçoado)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-agua" id="cartao-totodile">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Totodile</h2>
+                            <span>#0158</span>
+                        </div>
+
+                        <span class="tipo agua">Água</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/totodile.png" alt="Pikachu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 50</li>
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 64</li>
+                                <li>Velocidade: 43</li>
+                                <li>Total: 222</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Torrent (Dilúvio/Força Impetuosa)</li>
+                                <li>Sheer Force (Força Absoluta)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-sombrio" id="cartao-umbreon">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Umbreon</h2>
+                            <span>#0197</span>
+                        </div>
+
+                        <span class="tipo sombrio">Sombrio</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/umbreon.png" alt="Umbreon">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status Base</h3>
+
+                            <ul>
+                                <li>HP: 95</li>
+                                <li>Ataque: 65</li>
+                                <li>Defesa: 110</li>
+                                <li>Velocidade: 65</li>
+                                <li>Total: 335</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Synchronize (Sincronia)</li>
+                                <li>Inner Focus (Foco Interno)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokemon ativo" id="bulbasaur">
+                        <img src="src/images/cabeca-bulbasaur.png" alt="">
+                        <span>Bulbasaur</span>
+                    </li>
+                    <li class="pokemon" id="pikachu">
+                        <img src="src/images/cabeca-pikachu.png" alt="Cabeça Pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon" id="ninetales">
+                        <img src="src/images/cabeca-ninetales.png" alt="">
+                        <span>Ninetales</span>
+                    </li>
+                    <li class="pokemon" id="gengar">
+                        <img src="src/images/cabeca-gengar.png" alt="">
+                        <span>Gengar</span>
+                    </li>
+                    <li class="pokemon" id="totodile">
+                        <img src="src/images/cabeca-totodile.png" alt="">
+                        <span>Totodile</span>
+                    </li>
+                    <li class="pokemon" id="umbreon">
+                        <img src="src/images/cabeca-umbreon.png" alt="">
+                        <span>Umbreon</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
