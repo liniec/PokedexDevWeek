@@ -18,6 +18,6 @@ Este projeto é uma demonstração do uso de tecnologias da web para criar uma i
 
 ## Acesso
 
-Para ver o site completo, [clique aqui](https://liniec.github.io/PokedexDevWeek/)
+Para ver o site completo, [clique aqui](https://liniec.github.io/PokedexDevWeek/).
 
 <img src = "./src/images/PrintScreen.png" alt= "Prévia Pokédex">
